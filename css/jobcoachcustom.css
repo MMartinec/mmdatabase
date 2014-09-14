@@ -1,0 +1,409 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	width: 100%;
+	margin: 0% auto;
+	font-family: "Helvetica", Helvetica Neue, Arial, sans-serif;
+	background-color: #536eac;
+	background-image: url(../img/otherpathwaybluebackground.png);
+	background-repeat: repeat;
+}
+#wrapper{
+	width: 90%;/*this was based on 900 px*/
+	margin: 0% auto;
+	overflow: hidden;
+	
+	
+	
+}
+aside{
+	float:left;
+	width: 16%; /*331px / 900px*/
+	margin-left:8%;
+	padding-bottom: 50px;
+	
+	background-color:#FFFFFF;
+	
+}
+nav{
+	padding-left: 57px;
+	}
+
+.content{
+	float: left;
+	width: 60%;
+	background-color: #FFFFFF;
+	margin-top: 30px;
+	margin-left: 131px;
+}
+.contentinfo{
+	margin-top: 30px;
+	margin-left: 220px;
+	padding-bottom: 30px;
+	}
+	.view{
+		margin-top: 30px;
+	margin-left: 153px;
+	padding-bottom: 30px;
+	}
+	.edit{
+		margin-top: 30px;
+	margin-left: 185px;
+	padding-bottom: 30px;
+	}
+	.editjc{
+		margin-top: 30px;
+	margin-left: 274px;
+	padding-bottom: 30px;
+	}
+	.editc{
+		margin-top: 30px;
+	margin-left: 241px;
+	padding-bottom: 30px;
+	}
+	.addjc{
+		margin-top: 30px;
+	margin-left: 276px;
+	padding-bottom: 30px;
+	}
+	.addc{
+		margin-top: 30px;
+	margin-left: 259px;
+	padding-bottom: 30px;
+	}
+	.loginform{
+		padding-top: 197px;
+		padding-bottom: 248px;
+		}
+	
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding-left:5px;
+	padding-right: 5px;
+	padding-top: 58px;
+	padding-bottom: 5px;
+	font-family: Helvetica;
+	font-size: 14px;
+	font-style: normal;
+	color: #536eac;
+}
+ul li{
+	padding-bottom 20px;
+	line-height: 30px;
+	padding-bottom: 3px;
+	color: #536eac;
+	
+} 
+/* unvisited link */
+a:link {
+    color: #536eac;
+}
+
+/* visited link */
+a:visited {
+	color: #000000;
+}
+
+/* mouse over link */
+a:hover {
+	color: #88b034;
+}
+.forgot{
+	font-size:9px;
+	padding-top: 10px;
+	}
+.adminhometitle{
+	text-align: center;
+	padding-right: 148px;	
+	}
+.adminhomelognoteborder{
+	background-color: #fff;
+	width: 71%;
+	padding-bottom: 30px;
+	padding-top: 10 px;
+	border-top: 4px solid #88b034;
+	}
+.lognotesearch{
+	padding-bottom: 20px;	
+	}
+.adminhomejobcoachborder{
+	background-color: #fff;
+	width: 69%;
+	padding-bottom: 30px;
+	padding-top: 10 px;
+	border-top: 4px solid #88b034;
+	margin-left: 9px;
+	}
+.adminhomeclientborder{
+	background-color: #fff;
+	width: 67%;
+	padding-bottom: 30px;
+	padding-top: 10 px;
+	border-top: 4px solid #88b034;
+	margin-left: 13px;
+	}
+	
+.jobcoachsearch{
+	padding-bottom: 20px;
+	margin-left: 9px;
+	
+	}
+.clientsearch{
+	padding-bottom: 75px;
+	margin-left: 13px;
+	}
+.jch3{
+	margin-left: 9px;
+	}
+.ch3{
+	margin-left: 14px;
+	}
+.jcnav{
+	padding-top:5px;
+	padding-bottom: 6px;
+	}
+.clientgoal{
+	padding-top: 30px;
+	}
+.clientinput{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 28px;
+	}
+	
+.clienthours{
+	padding-top: 0px;
+	}
+.addclienttitle{
+	text-align: center;
+	padding-right: 150px;
+	padding-top: 15px;
+	}
+.addclientbutton{
+	padding-bottom: 40px;
+	padding-left: 60px;
+	}
+	
+	
+.newclienth4{
+	padding-left:280px;
+	}
+.dateh4{
+	padding-top: 20px;
+	padding-left: 136px;
+	
+	}
+.addnewlognote{
+	
+	}
+.addlognotetitle{
+	text-align: center;
+	padding-right: 148px;
+	padding-top: 15px;
+	}
+.dateandlocation{
+	padding-left: 17px;
+	}
+	
+.starttimeh4{
+	padding-left: 101px;
+	padding-top: 10px;
+	}
+.inputstartstoptime{
+	padding-left: 17px;
+	}
+	
+.locationh4{
+	padding-left: 17px;
+	padding-top: 10px;
+	}
+.inputlocation{
+	padding-left: 17px;
+	}
+.Jobcoachname{
+	padding-top: 20px;
+	padding-left: 139px;
+	
+	}
+.jcnameinput{
+	padding-top: 10px;
+	padding-bottom: 30px;
+	padding-left:21px;
+	}
+.Jobcoachemailh4{
+	padding-top: 10px;
+	padding-left:140px;
+	}
+.jcemailinput{
+	padding-top: 10px;
+	padding-bottom: 30px;
+	padding-left:117px;
+	}
+.assignclienth4{
+	padding-top: 10px;
+	padding-left:156px;
+	}
+.assignclientdropdown{
+	padding-top: 10px;
+	padding-left:157px;
+	padding-bottom: 30px;
+	}
+.jcemailassignclient{
+	list-style: none;
+	display: inline;
+	}
+.admineditclient{
+	text-align: center;
+	padding-right: 152px;
+	padding-top: 15px;
+	}
+.viewjobcoachpic{
+	padding-top: 40px;
+	padding-left:40px;
+	padding-bottom:64px;
+	}
+.viewclientsh1{
+	text-align: center;
+	padding-left: 130px;
+	padding-top: 20px;
+	}
+.viewjobcoachh1{
+	text-align: center;
+	padding-left:150px;
+	padding-top: 20px;
+	}
+.viewlognotesh1{
+	text-align: center;
+	padding-left:150px;
+	padding-top: 20px;
+	}
+	
+.viewclientsearchbar{
+	padding-right:39px;
+	pading-top:0px;
+	padding-bottom:40px;
+	}
+.viewjobcoachsearchbar{
+	padding-right:0px;
+	pading-top:20px;
+	padding-bottom:40px;
+	}
+.viewlognotessearchbar{
+	padding-left: 0px;
+	padding-top:20px;
+	padding-bottom:40px;
+	}
+.viewjobcoachsorth4{
+	padding-left:100px;
+	}
+	
+.viewclienttable{
+	Margin-left: 20px;
+	margin-right: 20px;
+	}
+.viewjobcoachtable{
+	Margin-left: 20px;
+	margin-right: 20px;
+	padding-top: 40px;
+	}
+.viewlognotestable{
+	Margin-left: 20px;
+	margin-right: 20px;
+	padding-top: 40px;
+	}
+
+	
+.viewclientsortby{
+	padding-left: 20px;
+	}
+.viewjobcoachsorth4{
+	padding-left: 197px;
+	}
+	
+
+.viewclientssort{
+	text-align: center;
+	padding-left: 110px;
+	padding-top: 20px;
+	}
+.viewclientsorth4{
+	padding-left: 120px;
+	}
+.viewlognotessorth4{
+	padding-left: 181px;
+	}
+.viewjobcoachsorth4{
+	padding-left: 238px;
+	}
+.viewlognotessortbydate{
+	padding-left:5px;
+	}
+.viewaddnewlognoteh4{
+	padding-left: 10px;
+	}
+.viewjobcoachadd{
+	padding-left: 20px;
+	}
+.hoursworkedh4{
+	padding-left: 127px;
+	padding-top: 10px;
+	}
+	
+.totalhoursworked{
+	padding-left: 110px;
+	}
+.dedicatedtime{
+	padding-top: 10px;
+	padding-left: 100px;
+	}
+.dedicatedhours{
+	padding-left: 38px;
+	}
+.clientdedicatedhours{
+	padding-top: 10px;
+	padding-left: 38px;
+	}
+.otherpathwayh5{
+	padding-left: 160px;
+	}
+.otherpathwayinput{
+	padding-left: 105px;
+	padding-bottom: 20px;
+	}
+.addlognoteh4{
+	padding-left: 298px;
+	}
+.addnewlognote{
+	padding-left: 263px;
+	}
+.clienthoursh4{
+	padding-top: 10px;
+	padding-left: 116px;
+}
+.clienth4{
+	padding-left: 81px;
+
+}
+.assignjobcoachtable{
+	
+}
+.lognoteview{
+	margin-left: 140px;
+	padding-top: 40px;
+	
+	
+}
+.adminlnsrchdate{
+	margin-left: 103px;
+}
+.addlnsubmitbutton{
+	margin-top: 20px;
+}
+.odd{
+	background-color: #dde2ef;
+}
+.even{
+	background-color: #e7efd6;
+}

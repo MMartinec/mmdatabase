@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Add Log Note</title>
+<link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/jobcoachcustom.css" rel="stylesheet" type="text/css">
+<link href="jquery-ui-1.11.0.custom/jquery-ui.min.css" rel="stylesheet" type="text/css">
+<link href="jquery-ui-1.11.0.custom/jquery-ui.structure.min.css" rel="stylesheet" type="text/css">
+<link href="jquery-ui-1.11.0.custom/jquery-ui.theme.min.css" rel="stylesheet" type="text/css">
+<script>
+$(function() {
+$( "#datepicker" ).datepicker();
+});
+</script>
+</head>
+
+<body>
+
+<div class="wrapper"><!--begin wrapper-->
+
+
+<div class="header"><!--begin header-->
+  
+ 
+</div><!--end header-->
+
+
+
+<aside><!--begin aside-->
+<img src="img/otherPathwaysLogodifferentcolors.jpg" width="238" height="197" alt="Other Pathway">
+
+<nav><!--begin nav-->
+
+  <ul>
+  <!--<button type="button" class="btn btn-primary btn-xs">Extra small button</button>-->
+  <li><a href="adminhome.html">Admin Home</a></li>
+  <li><a href="viewjobcoach.html">Job Coaches</a></li>
+  <li><a href="viewclients.html">Clients</a></li>
+  <li><a href="viewlognotes.html">Log Notes</a></li>
+  <li><a href="adminhome.html">Log Out</a></li>
+  
+</ul> 
+             
+
+</nav><!--end nav-->      
+
+
+
+</aside><!--end aside-->
+
+<div class="content"><!--begin content-->
+	<div class="row">
+            <div class="col-md-8 col-md-offset-3">
+              <div class="addlognotetitle">
+              
+              <h1>Edit Log Note</h1>
+             
+         		</div>
+         			</div>
+                    	</div>
+   <!--date start*******************************--> 
+   <div class="row">
+            <div class="col-md-8 col-md-offset-3">
+  <div class="dateh4">
+    <h4>Date and location</h4>
+    </div>
+  </div>
+ </div>
+ 
+  
+  <div class="row">
+            <div class="col-md-8 col-md-offset-3">
+   <div class="dateandlocation">
+  <form class="form-inline" role="form">
+  <div class="form-group">
+    <label class="" for="date"></label>
+    <input type="date" class="form-control" id="date" placeholder= "7/4/2014">
+  </div>
+  
+  
+  <div class="form-group">
+    <label class="" for="location"></label>
+    <input type="text" class="form-control" id="location" placeholder="Seattle">
+  </div>
+
+  
+  </form>
+
+         </div>
+         </div>
+       	</div>
+<!-- Staff Start and stop times begin****************************-->
+  <div class="row">
+            <div class="col-md-8 col-md-offset-3">
+  <div class="starttimeh4">
+    <h4>Staff Start and Stop Times</h4>
+    </div>
+  </div>
+ </div>
+ 
+  
+  <div class="row">
+            <div class="col-md-8 col-md-offset-3">
+  <div class= "inputstartstoptime">
+  <form class="form-inline" role="form">
+  <div class="form-group">
+    <label class="" for="starttime"></label>
+    <input type="time" class="form-control" id="starttime" placeholder="10:00 AM">
+  </div>
+  
+  <div class="form-group">
+    <label class="" for="endtime"></label>
+    <input type="time" class="form-control" id="endtime" placeholder="1:00 PM">
+  </div>
+  </form>
+
+       </div>
+         </div>
+         </div>	
+            
+
+ 
+ <!--Log note**********************************-->      
+<div class="row">
+            <div class="col-lg-10 col-md-offset-1">
+         <div class="addlognoteh4">
+         <h4>New Log Note</h4>
+         </div>
+         <div class="addnewlognote"> 
+    <form class="form" role="form">
+  <div class="form-group">
+    <label class="sr-only" for="newlognote">new log note</label>
+    <textarea class="form-control" rows= "10" id="clientgoal" placeholder="Today Kaidence volunteered at the foodbank."></textarea>
+  </div>
+  
+  
+</form> 
+         </div>
+         </div>
+         	</div> 
+ 
+ 
+   <!--buttons***********************************--> 
+   <div class="row">
+            <div class="col-md-6 col-md-offset-4">
+  <div class="addlognotebuttons">          
+   <form class="form-inline" role="form">
+   <div class="addclientbutton">
+  <button type="button" class="btn btn-default">Update</button>
+  <button type="button" class="btn btn-default">Cancel</button>
+  
+  </div>
+  </div>
+  </form>
+</div>
+
+
+   </div><!--end content-->
+
+
+
+<!--end wrapper-->
+
+<!-- javascript -->
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="jquery-ui-1.11.0.custom/jquery-ui.min.js"></script>
+    <script src="jquery-ui-1.11.0.custom/external/jquery/jquery.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
+
