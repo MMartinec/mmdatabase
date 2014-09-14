@@ -1,0 +1,268 @@
+/* this is a custom CSS stylesheet */
+body {
+	max-width: 960 px;
+	margin: 0% auto;
+    font-family: "Helvetica", Helvetica Neue, Arial, sans-serif;
+}
+
+#wrapper{
+	width: 90%;/*this was based on 900 px*/
+	margin: 0% auto;
+	overflow: hidden;
+	
+
+}
+aside{
+	float:left;
+	width: 35% /*331px / 900px*/
+	padding: 4.531722054381%; /*15px / 331px.  PADDING IS DIVIDED BY THE ASIDE ELEMENT WIDTH, NOT THE PARENT 900 PX*/
+	background-color:#88b034;
+	margin:0%;
+}
+.sidenav{
+	float: left;
+	
+	}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 100px;
+	font-family: Helvetica;
+	font-size: 12px;
+	font-style: normal;
+	color: #000000;
+	
+}
+ul li{
+	padding-bottom 20px;
+	line-height: 30px;
+	
+	} 
+a {
+    display: block;
+    
+	
+	
+}
+a:link    {
+	color: #000;
+	
+}
+a:visited {
+	color: #536eac;
+}
+a:hover   {color:#FFF;
+}
+a:active  {color:#000;
+} 
+.content{
+	float: left;
+	width: 60%; /*566px/900px;*/
+	margin-left: 1.11111%; /*10px / 900px*/
+	background-color: #FFF;
+	padding-right: 200px;
+	padding-top: 10px;
+}
+
+.row {
+          margin-bottom: 1.5em;
+        }
+        .row .row {
+          margin-top: 0.8em;
+          margin-bottom: 0;
+        }
+        [class*="col-"] {
+          padding: 1em 0;
+          padding-left: 2em;
+          background-color: #FFF;
+          border: 1px solid #FFF;
+}
+.navbar{
+            background-color: #88B034;
+        }
+        .logo{
+         } 
+        .loginform{
+          
+        }
+        .admin-links ul li{
+          list-style-type: none;
+        }
+        .new ul li{
+          list-style-type: none;
+        }
+        .three-columns{
+      outline: 1px solid #88b034;
+}
+.container {
+	margin:0;
+        }
+
+
+.glyphicon {
+	color: #cdae51;
+}
+.glyphicon-pushpin, 
+.glyphicon-heart {
+	color: #3F2B22;
+}
+
+.pull-right.img-responsive {
+	margin: 0 0 1em 1em;
+}
+
+.btn-info {
+    background-color: #cdae51;
+    border-color: #3F2B22;
+    color: #FFFFFF;
+}
+
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info.active,
+.open .dropdown-toggle.btn-info {
+  color: #ffffff;
+  background-color: #3F2B22;
+  border-color: #333;
+}
+.otherlogo {
+	
+}
+
+.breadcrumb > li + li:before {
+  content: none;
+}
+
+.navbar-inverse .navbar-toggle {
+	color: #88B034;
+	font-weight: bold;
+	border-color: #88B034;
+}
+.navbar-inverse .navbar-toggle:hover {
+	background-color: #ddd;
+	color: #333;
+}
+.navbar-inverse .navbar-toggle .glyphicon {
+	color: white;
+}
+.navbar-inverse .navbar-toggle:hover .glyphicon {
+	color: #333;
+
+}
+
+tab-pane {
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;	
+	border-bottom: 1px solid #ddd;
+	padding: 0.8em;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: #536eac;
+}
+.three-columns{
+	padding-top: 30px;
+}
+body {
+            padding: 0 16px;
+            font-family: "Helvetica ", Helvetica Neue, Arial, sans-serif;
+			
+
+            
+        }
+        .container {
+          padding: 0 1em;
+        }
+        
+        h4 {
+          margin-top: 1.5em;
+        }
+        .row {
+          margin-bottom: 1.5em;
+        }
+        .row .row {
+          margin-top: 0.8em;
+          margin-bottom: 0;
+        }
+        [class*="col-"] {
+          padding: 1em 0;
+          padding-left: 2em;
+          background-color: #FFF;
+          border: 1px solid #FFF;
+}
+        
+        .navbar{
+
+            background-color: #88B034;
+
+        }
+        .navbar-inverse .navbar-nav > li > a {
+  color: #000000;
+}
+     
+
+        .logo{
+          padding-top: 40px;
+          padding-bottom: 10px;
+          padding-right: 20px;
+        }
+        .otherlogo{
+          margin-left:0px;
+          padding-top: 40px;
+
+        }
+	
+        
+        .navbar ul li a{
+          color: #000000;
+        }
+        .forgot{
+        	font-size: .75em;
+        }
+aside nav {
+	text-align: left;
+}
+        .adminhomelognote{
+        	width: 300px;
+
+        }
+        .adminhomedate{
+        	width:100px;
+        }
+        .adminclientdropdown{
+        	padding-right: 10px;
+        }
+        .table{
+        	border: 1px solid #88B034;
+        }
+        .viewlognotes{
+        	padding-top: 20px;
+        }
+
+        
+.header p {
+	text-indent: -80%;
+}
+.adminhomepage{
+	padding-left: 0px;
+	}
+.nav{
+	padding-right: 20px;
+	}
+.content {
+	background-color: #C90;
+	margin: 0;
+}
+.wrapper {
+  width: 100%;
+	background-color: #536eac;
+	
+}

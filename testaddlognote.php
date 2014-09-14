@@ -1,0 +1,276 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Add Log Note</title>
+<link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="jquery-ui-1.11.0.custom/jquery-ui.min.css" rel="stylesheet" type="text/css">
+<link href="jquery-ui-1.11.0.custom/jquery-ui.structure.min.css" rel="stylesheet" type="text/css">
+<link href="jquery-ui-1.11.0.custom/jquery-ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="css/jobcoachcustom.css" rel="stylesheet" type="text/css">
+<script>
+$(function() {
+$( "#datepicker" ).datepicker();
+});
+</script>
+</head>
+
+<body>
+
+<div class="wrapper"><!--begin wrapper-->
+
+
+<div class="header"><!--begin header-->
+  
+ 
+</div><!--end header-->
+
+
+
+<aside><!--begin aside-->
+<img src="img/otherPathwaysLogodifferentcolors.jpg" width="238" height="197" alt="Other Pathway">
+
+<nav><!--begin nav-->
+
+  <ul>
+  <!--<button type="button" class="btn btn-primary btn-xs">Extra small button</button>-->
+  <li><a href="adminhome.html">Admin Home</a></li>
+  <li><a href="viewjobcoach.html">Job Coaches</a></li>
+  <li><a href="viewclients.html">Clients</a></li>
+  <li><a href="viewlognotes.html">Log Notes</a></li>
+  <li><a href="adminhome.html">Log Out</a></li>
+  
+</ul> 
+             
+
+</nav><!--end nav-->      
+
+
+
+</aside><!--end aside-->
+
+<div class="content"><!--begin content-->
+	<div class="row">
+            <div class="col-md-8 col-md-offset-3">
+              <div class="addlognotetitle">
+              
+              <h1>Add New Log Note</h1>
+             
+         		</div>
+         			</div>
+                    	</div>
+   <!--date start*******************************--> 
+   <form enctype="multipart/form-data" action="addlognote_processing.php" method="POST" class="form-inline" role="form">
+   <div class="row">
+            <div class="col-md-8 col-md-offset-3">
+  <div class="dateh4">
+    <h4>Date and location</h4>
+    </div>
+  </div>
+ </div>
+ 
+  
+  <div class="row">
+            <div class="col-md-8 col-md-offset-3">
+   <div class="dateandlocation">
+  
+  <div class="form-group">
+    <label class="" for="date"></label>
+    <input type="date" class="form-control" name="date" id="date" placeholder= "Enter Date">
+  </div>
+  
+  
+  <div class="form-group">
+    <label class="" for="location"></label>
+    <input type="text" class="form-control" name="location" id="location" placeholder="Enter location">
+  </div>
+
+  
+ 
+
+         </div>
+         </div>
+       	</div>
+<!-- Staff Start and stop times begin****************************-->
+  <div class="row">
+            <div class="col-md-8 col-md-offset-3">
+  <div class="starttimeh4">
+    <h4>Staff Start and Stop Times</h4>
+    </div>
+  </div>
+ </div>
+ 
+  
+  <div class="row">
+            <div class="col-md-8 col-md-offset-3">
+  <div class= "inputstartstoptime">
+  
+  <div class="form-group">
+    <label class="" for="starttime"></label>
+    <input type="time" class="form-control" name="starttime" id="starttime" placeholder="Enter start time">
+  </div>
+  
+  <div class="form-group">
+    <label class="" for="endtime"></label>
+    <input type="time" class="form-control" name="endtime" id="endtime" placeholder="Enter end time">
+  </div>
+
+
+
+       </div>
+         </div>
+         </div>	
+            
+<div class="row">
+            <div class="col-md-8 col-md-offset-3">
+  <div class="hoursworkedh4">
+    <h4>Total Hours Worked</h4>
+    </div>
+  </div>
+ </div>
+ 
+  
+  <div class="row">
+            <div class="col-md-8 col-md-offset-3">
+  <div class= "totalhoursworked">
+  
+  <div class="form-group">
+    <label class="" for="totalhoursworked"></label>
+    <input type="number" class="form-control" name="totalhoursworked" id="totalhoursworked" placeholder="Total Hours Worked">
+  </div>
+
+
+       </div>
+         </div>
+         </div>	
+            
+ 
+ <!--Log note**********************************-->      
+<div class="row">
+            <div class="col-lg-10 col-md-offset-1">
+         <div class="addlognoteh4">
+         <h4>New Log Note</h4>
+         </div>
+         <div class="addnewlognote"> 
+    
+  <div class="form-group">
+    <label class="sr-only" for="newlognote">new log note</label>
+    <textarea class="form-control" rows= "10" name="clientgoal" id="clientgoal" placeholder="Enter new log note"></textarea>
+  </div>
+  
+  
+ 
+         </div>
+         </div>
+         	</div> 
+ <div class="row">
+            <div class="col-md-8 col-md-offset-3">
+  <div class="dedicatedtime">
+    <h4>Job Coach Dedicated Time</h4>
+    </div>
+  </div>
+ </div>
+ 
+  
+  <div class="row">
+            <div class="col-md-8 col-md-offset-3">
+  <div class= "dedicatedhours">
+  
+  
+  <div class="form-group">
+  <h5>Job Preparation</h5>
+    <label class="" for="jobprep"></label>
+    <input type="number" class="form-control" name="jobprep" id="jobprep" placeholder="Enter hours">
+  </div>
+  
+  <div class="form-group">
+  <h5>Job Development</h5>
+    <label class="" for="jobdev"></label>
+    <input type="number" class="form-control" name="jobdev" id="jobdev" placeholder="Enter hours">
+  </div>
+  
+  <div class="form-group">
+  <h5>Job Coaching</h5>
+    <label class="" for="jobcoachinghrs"></label>
+    <input type="number" class="form-control" name="jobcoachinghrs" id="jobcoachinghrs" placeholder="Enter hours">
+  </div>
+  
+  <div class="form-group">
+  <h5>Record Keeping</h5>
+    <label class="" for="recordkeep"></label>
+    <input type="number" class="form-control" name="recordkeep" id="recordkeep" placeholder="Enter hours">
+  </div>
+
+ 
+
+       </div>
+         </div>
+         </div>	
+ <div class="row">
+            <div class="col-md-8 col-md-offset-3">
+  <div class="clienthoursh4">
+  <h4>Client Dedicated Hours</h4>
+  </div>
+  
+ 
+  <div class="form-group">
+  <h5>Paid</h5>
+    <label class="" for="jobprep"></label>
+    <input type="number" name="paid" class="form-control" id="paid" placeholder="Enter hours">
+  </div>
+  
+  <div class="form-group">
+  <h5>Volunteer</h5>
+    <label class="" for="jobdev"></label>
+    <input type="number" class="form-control" name="volunteer" id="volunteer" placeholder="Enter hours">
+  </div>
+  
+  <div class="form-group">
+  <div class="otherpathwayh5">
+  <h5>Other Pathway</h5>
+  </div>
+  <div class="otherpathwayinput">
+  <div class="otherpathform">
+    <label class="" for="otherpathway"></label>
+    <input type="number" class="form-control" name="otherpathway" id="otherpathway" placeholder="Enter hours">
+  </div>
+  </div>
+
+
+
+
+       </div>
+         </div>
+         </div>	
+            
+ 
+   <!--buttons***********************************--> 
+   <div class="row">
+            <div class="col-md-6 col-md-offset-4">
+  <div class="addlognotebuttons">          
+   
+   <div class="addclientbutton">
+  <button type="submit" name="submit" class="btn btn-default" value="submit">Submit</button>
+  <button type="button" class="btn btn-default">Cancel</button>
+  
+  </div>
+  </div>
+  </div>
+</div>
+</form>
+
+   </div><!--end content-->
+
+
+
+<!--end wrapper-->
+
+<!-- javascript -->
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="jquery-ui-1.11.0.custom/jquery-ui.min.js"></script>
+    <script src="jquery-ui-1.11.0.custom/external/jquery/jquery.js"></script>
+    <script src="js/main.js"></script>
